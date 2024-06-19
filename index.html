@@ -1,0 +1,101 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyce - Social Media</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #222;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+        h1, h2, h3 {
+            color: #4caf50;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .service-plan {
+            background-color: #333;
+            color: #ffffff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .service-plan:hover {
+            background-color: #4caf50;
+        }
+        .pricing {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            border-top: 1px solid #444;
+            padding-top: 20px;
+        }
+        .pricing h3 {
+            color: #4caf50;
+            font-size: 1.2rem;
+        }
+        .pricing p {
+            font-size: 1.1rem;
+            margin: 0;
+        }
+    </style>
+    <script>
+        function openWhatsApp(message) {
+            window.open(`https://wa.me/5598991704281?text=${encodeURIComponent(message)}`, '_blank');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Joyce - Social Media</h1>
+            <p>18 anos, Técnica em Administração e Storymaker Mobile.</p>
+            <p>Jovem apaixonada pelo universo do marketing e pesquisadora constante sobre os melhores meios para prospectar clientes através das redes sociais.</p>
+            <p>As redes sociais são fundamentais para os negócios modernos, proporcionando um canal direto para atrair e engajar clientes. Um bom trabalho de social media não só fortalece a presença online, mas também pode significar o sucesso ou fracasso de uma empresa.</p>
+        </header>
+        <section>
+            <h2>Serviços Oferecidos</h2>
+            <div class="service-plan" onclick="openWhatsApp('Olá, estou interessado em saber como funciona o plano de 400.')">
+                <h3>Serviço Mensal</h3>
+                <p>R$ 400 por mês</p>
+            </div>
+            <div class="service-plan" onclick="openWhatsApp('Olá, estou interessado em saber como funciona a análise de perfil.')">
+                <h3>Análise de Perfil</h3>
+                <p>R$ 150 por análise</p>
+            </div>
+            <div class="service-plan" onclick="openWhatsApp('Olá, estou interessado em saber como funciona o mês de teste.')">
+                <h3>Mês de Teste</h3>
+                <p>R$ 250 por mês</p>
+            </div>
+        </section>
+        <section>
+            <h2>Entre em Contato</h2>
+            <p>Para mais informações, entre em contato via Instagram ou WhatsApp:</p>
+            <ul>
+                <li>Instagram: <a href="https://www.instagram.com/x_joyce_00" target="_blank">@x_joyce_00</a></li>
+                <li>WhatsApp: <a href="https://wa.me/5598991704281" target="_blank">(98) 99170-4281</a></li>
+            </ul>
+        </section>
+        <footer>
+            <p>&copy; 2024 Joyce - Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
